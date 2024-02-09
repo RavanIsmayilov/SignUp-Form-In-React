@@ -40,7 +40,8 @@
   }
   
   .email,
-  .password {
+  .password,
+  .fullname {
     padding: 12px;
     width: 100%; 
     border-radius: 8px;
@@ -50,7 +51,8 @@
     box-sizing: border-box; 
   }
   .section_email,
-  .section_password
+  .section_password,
+  .section_fullname
   {
     width: 360px; 
     display: flex;
@@ -63,13 +65,6 @@
   }
 
   .span{
-    color:rgb(21, 45, 255) ;
-    margin-left: 85px;
-    font-size: 16px;
-    font-weight: 500;
-  }
-
-  .span2{
     margin: 20px 0px 20px 65px;
     font-size: 16px;
     font-weight: 500;
